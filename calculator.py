@@ -24,4 +24,4 @@ while True:
             result = "Unknown operation!"
         print("Result:", result)
     except Exception as e:
-        print("Invalid input. Try again.", str(e))
+        print("Invalid input. Try again now.", str(e))
