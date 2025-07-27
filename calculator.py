@@ -21,7 +21,7 @@ while True:
         elif op == '/':
             result = divide(num1, num2)
         else:
-            result = "Unknown operation"
+            result = "Unknown operation!"
         print("Result:", result)
     except Exception as e:
         print("Invalid input. Try again.", str(e))
