@@ -1,5 +1,5 @@
 name = input("What is your name?")
-age = int(input("How old are you?"))HussH
+age = int(input("How old are you?"))
 year = 2025 - age
 print(f"Your birth year is {year}")
 
@@ -13,3 +13,9 @@ total = 0
 for num in my_list:
     total += num
 print("Sum:", total)
+
+
+def add(x, y):
+    return x + y
+
+print("Sum:", add(4, 6))
